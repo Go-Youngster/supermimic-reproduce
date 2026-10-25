@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+# Reject staged files larger than hooks.maxfilesize bytes (default 1 MiB) so only small files get committed.
+limit=$(git config --get hooks.maxfilesize || echo 1048576)
+status=0
+while IFS= read -r -d '' f; do
+  size=$(git cat-file -s ":$f" 2>/dev/null || echo 0)
+  if [ "$size" -gt "$limit" ]; then
+    echo "pre-commit: $f is $size bytes (> $limit). Keep large files out of git (see .gitignore)." >&2
+    status=1
+  fi
+done < <(git diff --cached --name-only --diff-filter=AM -z)
+exit $status

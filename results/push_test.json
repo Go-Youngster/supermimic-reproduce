@@ -1,0 +1,123 @@
+{
+ "speeds": [
+  0.5,
+  1.0,
+  2.0,
+  3.0,
+  4.0
+ ],
+ "dirs": 8,
+ "trials": 4,
+ "pose": "walk1_subject1 首帧静止站立",
+ "results": {
+  "sm_lafan1_main": {
+   "0.5": {
+    "fall_rate": 0.0,
+    "settle_rate": 1.0,
+    "settle_median_s": 0.7799999713897705
+   },
+   "1.0": {
+    "fall_rate": 0.0,
+    "settle_rate": 1.0,
+    "settle_median_s": 0.8199999928474426
+   },
+   "2.0": {
+    "fall_rate": 0.0,
+    "settle_rate": 1.0,
+    "settle_median_s": 1.4199999570846558
+   },
+   "3.0": {
+    "fall_rate": 0.125,
+    "settle_rate": 0.875,
+    "settle_median_s": 1.7799999713897705
+   },
+   "4.0": {
+    "fall_rate": 0.375,
+    "settle_rate": 0.625,
+    "settle_median_s": 2.5399999618530273
+   }
+  },
+  "sm_h32_nocritic": {
+   "0.5": {
+    "fall_rate": 0.0,
+    "settle_rate": 1.0,
+    "settle_median_s": 0.47999998927116394
+   },
+   "1.0": {
+    "fall_rate": 0.0,
+    "settle_rate": 1.0,
+    "settle_median_s": 1.0
+   },
+   "2.0": {
+    "fall_rate": 0.0,
+    "settle_rate": 1.0,
+    "settle_median_s": 1.7799999713897705
+   },
+   "3.0": {
+    "fall_rate": 0.5,
+    "settle_rate": 0.5,
+    "settle_median_s": 1.9800000190734863
+   },
+   "4.0": {
+    "fall_rate": 0.875,
+    "settle_rate": 0.125,
+    "settle_median_s": 2.9800000190734863
+   }
+  },
+  "sm_h16_critic": {
+   "0.5": {
+    "fall_rate": 0.0,
+    "settle_rate": 1.0,
+    "settle_median_s": 2.0399999618530273
+   },
+   "1.0": {
+    "fall_rate": 0.0,
+    "settle_rate": 1.0,
+    "settle_median_s": 1.600000023841858
+   },
+   "2.0": {
+    "fall_rate": 0.0,
+    "settle_rate": 1.0,
+    "settle_median_s": 1.9800000190734863
+   },
+   "3.0": {
+    "fall_rate": 0.125,
+    "settle_rate": 0.875,
+    "settle_median_s": 2.759999990463257
+   },
+   "4.0": {
+    "fall_rate": 0.625,
+    "settle_rate": 0.375,
+    "settle_median_s": 3.5799999237060547
+   }
+  },
+  "sm_h16_nocritic": {
+   "0.5": {
+    "fall_rate": 0.75,
+    "settle_rate": 0.25,
+    "settle_median_s": 0.1599999964237213
+   },
+   "1.0": {
+    "fall_rate": 1.0,
+    "settle_rate": 0.0,
+    "settle_median_s": null
+   },
+   "2.0": {
+    "fall_rate": 1.0,
+    "settle_rate": 0.0,
+    "settle_median_s": null
+   },
+   "3.0": {
+    "fall_rate": 1.0,
+    "settle_rate": 0.0,
+    "settle_median_s": null
+   },
+   "4.0": {
+    "fall_rate": 1.0,
+    "settle_rate": 0.0,
+    "settle_median_s": null
+   }
+  }
+ },
+ "finished": "2026-10-24 03:02:32"
+}

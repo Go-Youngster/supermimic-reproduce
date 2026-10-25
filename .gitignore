@@ -1,0 +1,51 @@
+# Python / environments
+__pycache__/
+*.py[cod]
+.venv/
+.venv-python/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+*.egg-info/
+build/
+dist/
+
+# Editors / OS
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# Local secrets and machine-specific settings
+.env
+.env.*
+
+# Data, training runs and rendered media are produced locally (see README)
+data/
+runs/
+media/
+*.pt
+*.pth
+*.ckpt
+*.npz
+*.npy
+*.mp4
+*.webm
+*.gif
+*.jpg
+*.jpeg
+*.png
+*.tar
+*.tar.gz
+*.zip
+
+# Paper PDF (download it from arXiv instead of redistributing it)
+*.pdf
+
+# Logs and temporary files
+*.log
+*.jsonl
+nohup.out
+*.tmp
+*.new
